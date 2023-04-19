@@ -23,7 +23,7 @@ This will create a folder named favorannotator-rap, you can then:
 2. Compile the source code:
 
 ```commandline
-dx build -f favorannotator
+dx build -f favorannotator-rap
 ```
 
 the `-f` flag just tells DNANexus to overwrite older versions of the applet within the same project if it is already there.
