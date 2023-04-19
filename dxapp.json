@@ -1,5 +1,5 @@
 {
-  "name": "favorannotator_v1.0.0",
+  "name": "favorannotator",
   "title": "FAVORannotator",
   "summary": "FAVORannotator is a pipeline applet designed to functionally annotate genotype data in Genomic Data Structure (GDS) format of any genetic study using the FAVOR Database and create an annotated GDS (AGDS) file by storing the genotype data and their functional annotation data in an all-in-one file. The AGDS file can then facilitate a wide range of functionally-informed downstream analyses, for example, phenotype-genotype association analyses using STAARpipeline. For more information about FAVORannotator, please see the step-by-step tutorial at https://github.com/xihaoli/STAARpipeline-Tutorial",
   "description": "To run FAVORannotator, an instance type of \"mem2_ssd1_v2_x16\" is recommended, which is benchmarked to successfully annotate genotype data with sample size ~185,000 and ~1 billion variants.",
@@ -63,7 +63,7 @@
   },
   "ignoreReuse": false,
   "regionalOptions": {
-    "aws:us-east-1": {
+    "aws:eu-west-2": {
       "systemRequirements": {
         "*": {
           "instanceType": "mem2_ssd1_v2_x16"
