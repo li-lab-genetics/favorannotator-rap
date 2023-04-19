@@ -31,7 +31,7 @@ the `-f` flag just tells DNANexus to overwrite older versions of the applet with
 You can then run the following to run this applet:
 
 ```commandline
-dx run favorannotator-rap <options>
+dx run favorannotator <options>
 ```
 
 ### Citation
