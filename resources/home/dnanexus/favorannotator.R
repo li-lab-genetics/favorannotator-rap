@@ -33,7 +33,7 @@ URLs <- data.frame(chr = c(1:22),
                            "https://dataverse.harvard.edu/api/access/datafile/6170504"))
 
 URL <- URLs[chr, "URL"]
-system(paste0("wget --progress=bar:force:noscroll ", URLs[chr, "URL"]))
+system(paste0("wget --progress=bar:force:noscroll ", URL))
 system(paste0("tar -xvf ", gsub(".*?([0-9]+).*", "\\1", URL)))
 
 ##########################################################################
