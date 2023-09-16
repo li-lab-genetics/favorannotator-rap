@@ -5,7 +5,7 @@ For more information about how to run or modify it, see
 https://documentation.dnanexus.com.
 
 ### Applet Usage
-The **favorannotator** app is designed to functionally annotate genotype data in Genomic Data Structure (GDS) format of any genetic study using the <a href="https://doi.org/10.7910/DVN/1VGTJI">FAVOR Database</a> and create an annotated GDS (AGDS) file by storing the genotype data and their functional annotation data in an all-in-one file. The AGDS file can then facilitate a wide range of functionally-informed downstream analyses, for example, phenotype-genotype association analyses using the <a href="https://github.com/xihaoli/staarpipeline-rap">**staarpipeline**</a> app.
+The **favorannotator** app is designed to functionally annotate genotype data in Genomic Data Structure (GDS) format of any genetic study using the <a href="https://doi.org/10.7910/DVN/1VGTJI">FAVOR Database</a> and create an annotated GDS (AGDS) file by storing the genotype data and their functional annotation data in an all-in-one file. The AGDS file can then facilitate a wide range of functionally-informed downstream analyses, for example, phenotype-genotype association analyses using the <a href="https://github.com/li-lab-genetics/staarpipeline-rap">**staarpipeline**</a> app.
 
 Please see the <a href="https://tinyurl.com/staarpipeline">**user manual and tutorial**</a> for detailed usage of favorannotator app.
 
@@ -15,7 +15,7 @@ To acquire the favorannotator applet, you will need to compile this applet for y
 1. Clone this github repo to some directory:
 
 ```commandline
-git clone https://github.com/xihaoli/favorannotator-rap.git
+git clone https://github.com/li-lab-genetics/favorannotator-rap.git
 ```
 
 This will create a folder named favorannotator-rap, you can then:
