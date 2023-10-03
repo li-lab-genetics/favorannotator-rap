@@ -7,7 +7,7 @@ https://documentation.dnanexus.com.
 ### Applet Usage
 The **favorannotator** app is designed to functionally annotate genotype data in Genomic Data Structure (GDS) format of any genetic study using the <a href="https://doi.org/10.7910/DVN/1VGTJI">FAVOR Database</a> and create an annotated GDS (AGDS) file by storing the genotype data and their functional annotation data in an all-in-one file. The AGDS file can then facilitate a wide range of functionally-informed downstream analyses, for example, phenotype-genotype association analyses using the <a href="https://github.com/li-lab-genetics/staarpipeline-rap">**staarpipeline**</a> app.
 
-Please see the <a href="https://tinyurl.com/staarpipeline">**user manual and tutorial**</a> for detailed usage of favorannotator app.
+Please see the <a href="https://tinyurl.com/staarpipelineapps">**user manual and tutorial**</a> for detailed usage of favorannotator app.
 
 ### Cloning an Applet
 To acquire the favorannotator applet, you will need to compile this applet for your respective DNANexus project, by cloning the repository from github and `dx build` an APPLET into your own workspace.
