@@ -31,10 +31,10 @@
     {
       "name": "use_compression",
       "label": "Use compression or not",
-      "help": "Use compression or not when storing annotations into the AGDS file. Either \"YES\" (\"LZMA_RA\") or \"NO\" (no compression). If not specified, \"YES\" will be used as the default.",
+      "help": "Use compression or not when storing annotations into the AGDS file. Either \"YES\" (\"LZMA_RA\") or \"NO\" (no compression). If not specified, \"NO\" will be used as the default.",
       "class": "string",
       "optional": false,
-      "default": "YES"
+      "default": "NO"
     }
   ],
   "outputSpec": [
