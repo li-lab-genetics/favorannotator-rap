@@ -1,15 +1,15 @@
 {
   "name": "favorannotator",
   "title": "FAVORannotator",
-  "summary": "FAVORannotator is a pipeline applet designed to functionally annotate genotype data in Genomic Data Structure (GDS) format of any genetic study using the FAVOR Database and create an annotated GDS (AGDS) file by storing the genotype data and their functional annotation data in an all-in-one file. The AGDS file can then facilitate a wide range of functionally-informed downstream analyses, for example, phenotype-genotype association analyses using STAARpipeline. For more information about FAVORannotator, please see the step-by-step tutorial at https://github.com/xihaoli/STAARpipeline-Tutorial",
-  "description": "To run FAVORannotator, an instance type of \"mem2_ssd1_v2_x16\" is recommended, which is benchmarked to successfully annotate genotype data with sample size ~185,000 and ~1 billion variants.",
+  "summary": "FAVORannotator is a pipeline applet designed to functionally annotate genotype data in Genomic Data Structure (GDS) format of any genetic study using the FAVOR Database and create an annotated GDS (aGDS) file by storing the genotype data and their functional annotation data in an all-in-one file. The aGDS file can then facilitate a wide range of functionally-informed downstream analyses, for example, phenotype-genotype association analyses using STAARpipeline. For more information about FAVORannotator, please see the step-by-step tutorial at https://github.com/xihaoli/STAARpipeline-Tutorial",
+  "description": "To run FAVORannotator, an instance type of \"mem1_ssd1_v2_x36\" is recommended, which is benchmarked to successfully annotate genotype data with sample size ~500,000 and >1 billion variants.",
   "dxapi": "1.0.0",
   "version": "1.0.0",
   "inputSpec": [
     {
       "name": "outfile",
       "label": "Output file prefix",
-      "help": "Prefix of output file name, which should be the same as the input GDS file. The output result file will be an AGDS file in .gds object.",
+      "help": "Prefix of output file name, which should be the same as the input GDS file. The output result file will be an aGDS file in .gds object.",
       "class": "string",
       "optional": false
     },
@@ -31,7 +31,7 @@
     {
       "name": "use_compression",
       "label": "Use compression or not",
-      "help": "Use compression or not when storing annotations into the AGDS file. Either \"YES\" (\"LZMA_RA\") or \"NO\" (no compression). If not specified, \"NO\" will be used as the default.",
+      "help": "Use compression or not when storing annotations into the aGDS file. Either \"YES\" (\"LZMA_RA\") or \"NO\" (no compression). If not specified, \"NO\" will be used as the default.",
       "class": "string",
       "optional": false,
       "default": "NO"
@@ -66,7 +66,7 @@
     "aws:eu-west-2": {
       "systemRequirements": {
         "*": {
-          "instanceType": "mem2_ssd1_v2_x16"
+          "instanceType": "mem1_ssd1_v2_x36"
         }
       }
     }
